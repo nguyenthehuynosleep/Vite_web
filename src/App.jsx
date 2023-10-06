@@ -14,6 +14,7 @@ function App() {
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
+          img
         </a>
       </div>
       <h1>Learning ReactJS</h1>
@@ -29,6 +30,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
+    
   )
 }
 
