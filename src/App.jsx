@@ -4,12 +4,11 @@
 import './App.css'
 import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack';
-import { createSvgIcon } from '@mui/material/utils';
+import { createSvgIcon } from '@mui/material/utils'
 // import TabIndicator from '@mui/material/Tabs/TabIndicator'
 const HomeIcon = createSvgIcon(
-  <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />,
-  'Home',
-);
+  <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+)
 const PlusIcon = createSvgIcon(
   // credit: plus icon from https://heroicons.com/
   <svg
@@ -31,12 +30,12 @@ function App() {
   // }
   return (
     <>
-     <Stack direction="row" spacing={3}>
-      <HomeIcon />
-      <HomeIcon color="primary" />
-      <PlusIcon />
-      <PlusIcon color="secondary" />
-    </Stack>
+      <Stack direction="row" spacing={3}>
+        <HomeIcon />
+        <HomeIcon color="primary" />
+        <PlusIcon />
+        <PlusIcon color="secondary" />
+      </Stack>
       <div>NGUYENTHEHUY</div>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
