@@ -1,10 +1,8 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Button from '@mui/material/Button'
-import Stack from '@mui/material/Stack';
+import Stack from '@mui/material/Stack'
 import { createSvgIcon } from '@mui/material/utils'
+import { Typography } from '@mui/material'
 // import TabIndicator from '@mui/material/Tabs/TabIndicator'
 const HomeIcon = createSvgIcon(
   <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
@@ -37,8 +35,9 @@ function App() {
         <PlusIcon color="secondary" />
       </Stack>
       <div>NGUYENTHEHUY</div>
+      <Typography variant="body2" color="text.secondary">Config_theme</Typography>
       <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
+      <Button variant="contained" color="success">Contained</Button>
       <Button variant="outlined">Outlined</Button>
     </>
   )
